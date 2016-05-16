@@ -1,0 +1,58 @@
+#chatWindow,
+#minimap_box,
+#shortcutsWindow { position: absolute; } /* display: none */
+
+#minimap_token_input {
+    margin-bottom: 10px;
+    opacity: 0.9;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    position: absolute;
+    right: 0;
+    bottom: 260px;
+    z-index: 1000;
+}
+
+#minimap_box { bottom: 20px; right: 20px; }
+#minimap { background-color: rgba(0,0,0,0.1); }
+
+#shortcutsWindow {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 0 10px
+}
+
+#shortcutsWindow li {
+    list-style-type: none;
+    color: #fff;
+    font-weight: 700
+}
+
+#chatWindow {
+    padding: 10px;
+    bottom: 50px;
+    width: 280px;
+    height: 280px
+}
+
+#chatMessages {
+    width: 100%;
+    height: 90%;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+#yourMessage {
+    border: none;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    padding: 8px;
+    color: #000;
+    z-index: 1;
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #8c8c8c
+}
